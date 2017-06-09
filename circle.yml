@@ -1,3 +1,7 @@
+general:
+  build_dir: /
+
+
 checkout:
   post:
     - zip -9 -r done.zip testdir/
